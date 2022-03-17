@@ -263,12 +263,14 @@ public void switchToWindow(WebDriver driver, String partialWinTitle)
 	}
 }
 	
-	public void takeScreenshot(WebDriver driver, String screenshotName) throws Throwable
+	public String getScreenshot(WebDriver driver, String screenShotName) throws Throwable
 	{
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		File dest = new File("./screenshots/"+screenshotName+".PNG");
-		Files.copy(src,dest);
+	    //String path="./screenshots/"+screenshotName+".PNG"
+		File dst = new File("./screenshots/"+screenShotName+".PNG");
+		Files.copy(src,dst);
+		return dst.getAbsolutePath();
 	}
 	
 	public void scrollAction(WebDriver driver)

@@ -1,115 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-17T00:46:41 IST" name="Suite" finished-at="2022-03-17T00:47:24 IST" duration-ms="42454">
+  <suite started-at="2022-03-17T11:04:43 IST" name="Suite" finished-at="2022-03-17T11:04:43 IST" duration-ms="38">
     <groups>
     </groups>
-    <test started-at="2022-03-17T00:46:41 IST" name="Test" finished-at="2022-03-17T00:47:24 IST" duration-ms="42454">
-      <class name="com.crm.OrgenizationTest.CreateOrganizationWithIndTypeTest">
-        <test-method signature="createOrgTest()[pri:0, instance:com.crm.OrgenizationTest.CreateOrganizationWithIndTypeTest@156b88f5]" started-at="2022-03-17T00:46:42 IST" name="createOrgTest" finished-at="2022-03-17T00:47:13 IST" duration-ms="31102" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate option with value: IndType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-K1H4386L', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with value: IndType
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-K1H4386L', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)
-at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)
-at com.crm.OrgenizationTest.CreateOrganizationWithIndTypeTest.createOrgTest(CreateOrganizationWithIndTypeTest.java:98)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+    <test started-at="2022-03-17T11:04:43 IST" name="Test" finished-at="2022-03-17T11:04:43 IST" duration-ms="38">
+      <class name="com.crm.PRACTICE.ReadDataFromSuiteXMLfileTest">
+        <test-method signature="readDataFromXML(org.testng.xml.XmlTest)[pri:0, instance:com.crm.PRACTICE.ReadDataFromSuiteXMLfileTest@649bec2e]" started-at="2022-03-17T11:04:43 IST" name="readDataFromXML" finished-at="2022-03-17T11:04:43 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@f62aa8b8]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrgTest -->
-      </class> <!-- com.crm.OrgenizationTest.CreateOrganizationWithIndTypeTest -->
-      <class name="com.crm.ContactTests.CreateContactWithOrgTest">
-        <test-method signature="createContactWithOrgTest()[pri:0, instance:com.crm.ContactTests.CreateContactWithOrgTest@759d26fb]" started-at="2022-03-17T00:46:41 IST" name="createContactWithOrgTest" finished-at="2022-03-17T00:46:42 IST" duration-ms="442" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because "sh" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because "sh" is null
-at com.crm.ContactTests.CreateContactWithOrgTest.createContactWithOrgTest(CreateContactWithOrgTest.java:46)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createContactWithOrgTest -->
-      </class> <!-- com.crm.ContactTests.CreateContactWithOrgTest -->
-      <class name="com.crm.OrgenizationTest.CreateOrganizationTest">
-        <test-method signature="CreateOrganizationTest()[pri:0, instance:com.crm.OrgenizationTest.CreateOrganizationTest@3bf9ce3e]" started-at="2022-03-17T00:47:13 IST" name="CreateOrganizationTest" finished-at="2022-03-17T00:47:24 IST" duration-ms="10875" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOrganizationTest -->
-      </class> <!-- com.crm.OrgenizationTest.CreateOrganizationTest -->
+        </test-method> <!-- readDataFromXML -->
+      </class> <!-- com.crm.PRACTICE.ReadDataFromSuiteXMLfileTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
